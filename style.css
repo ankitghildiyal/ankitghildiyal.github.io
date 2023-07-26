@@ -1,0 +1,82 @@
+
+/*
+You can use multi
+*/
+a{
+    color:gray;
+    text-decoration: none;
+}
+h1{
+    font-family: serif;
+    font-style: oblique;
+    color: blueviolet;
+}
+/*
+This is from stackoverflow
+https://stackoverflow.com/questions/10085723/twitter-bootstrap-add-top-space-between-rows
+*/
+.bottom-buffer { 
+    margin-bottom:10px; 
+}
+.top-buffer { 
+    margin-top:10px; 
+}
+
+/*
+Below is an example of Selector
+It selects the operation/element of hovering over links
+*/
+a:hover{
+    color:black;
+    background:white;
+}
+/*
+Below is example of classes. They start with . and can have any name
+*/
+.greenlink{
+    color:green;
+}
+
+.greenlink:hover{
+    color:red;
+    background: white;
+}
+
+.indent_example{
+    margin-left:10px;
+}
+
+@media (min-width:200px){
+    body{
+        background: blue;;
+    }
+}
+
+@media (min-width:600px){
+    body{
+        background: red;
+    }
+}
+
+@media (min-width:800px){
+    body{
+        background: green;
+    }
+}
+
+
+/* These are from week3 course material 
+use this to put borders around things... */
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:100%;
+  margin-top: 10px;
+}
+
+
+
