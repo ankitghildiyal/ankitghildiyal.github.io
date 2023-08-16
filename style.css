@@ -30,6 +30,10 @@ a:hover{
     color:black;
     background:white;
 }
+
+.experience:hover{
+    color:blue;
+}
 /*
 Below is example of classes. They start with . and can have any name
 */
@@ -76,6 +80,10 @@ use this to put borders around things... */
 .large-img{
   max-width:100%;
   margin-top: 10px;
+}
+
+.regular-font-size{
+    font-size: 15px;
 }
 
 
